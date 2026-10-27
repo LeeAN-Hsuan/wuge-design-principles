@@ -1,0 +1,534 @@
+{
+  "studio": {
+    "en": "Wuge Studio",
+    "zh": "物格設計"
+  },
+  "version": "0.1.0",
+  "updated": "2026-10-20",
+  "license": "CC BY 4.0",
+  "cite_as": "Wuge Studio, <id>, <url>",
+  "principles": [
+    {
+      "id": "WG-01",
+      "slug": "rational-means-structure",
+      "domain": "general",
+      "title": {
+        "en": "Rational means structural order, not low saturation",
+        "zh": "理性是結構秩序，不是低彩度"
+      },
+      "rule": {
+        "en": "Read 'rational / restrained' briefs as a demand for alignment, grouping and hierarchy. Colour may still be bold.",
+        "zh": "客戶說「理性、克制」時，要的是對齊、群組與層級；用色仍然可以大膽。"
+      },
+      "why": {
+        "en": "A first draft that equated rational with off-white paper, black text and one red accent was judged 'too flat'. The order was right; the energy was missing.",
+        "zh": "第一版把理性等同於米白紙＋黑字＋一點紅，被判為「太平淡」。秩序對了，張力不見了。"
+      },
+      "do": {
+        "en": "Keep a strict grid and let colour carry the mood.",
+        "zh": "網格嚴格，情緒交給色彩。"
+      },
+      "dont": {
+        "en": "Desaturate everything to look 'serious'.",
+        "zh": "為了看起來「專業」把所有顏色調灰。"
+      },
+      "evidence": "practice",
+      "origin": "tri-fold brochure review, 2026-10",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-01",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-01.md?via=github"
+    },
+    {
+      "id": "WG-02",
+      "slug": "tidy-is-the-floor",
+      "domain": "general",
+      "title": {
+        "en": "Tidiness is the floor, not the design",
+        "zh": "整齊是底線，不是設計"
+      },
+      "rule": {
+        "en": "A layout that is merely aligned is unfinished. Every first round must include at least one direction pushed too far. Never fill a page with equal-sized card grids.",
+        "zh": "只做到對齊的版面還沒完成。第一輪至少要有一個方向推過頭；禁止整頁等大卡片網格。"
+      },
+      "why": {
+        "en": "Four separate first drafts were rejected for being too safe: 'looks like an old flyer', 'too obedient', 'like someone who just learned layout software'.",
+        "zh": "四份獨立的第一版都因太安全被退：「像舊 DM」「太乖」「像剛學會排版軟體的人做的」。"
+      },
+      "do": {
+        "en": "Deliver one stable option and one tension option side by side (see WG-08).",
+        "zh": "同時交一穩一張力兩個方向（見 WG-08）。"
+      },
+      "dont": {
+        "en": "Use a uniform card grid as the default composition.",
+        "zh": "預設用等大卡片網格構圖。"
+      },
+      "evidence": "practice",
+      "origin": "four brochure / menu reviews, 2026-10",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-02",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-02.md?via=github"
+    },
+    {
+      "id": "WG-03",
+      "slug": "object-as-grid",
+      "domain": "layout",
+      "title": {
+        "en": "Object as grid",
+        "zh": "物件即網格"
+      },
+      "rule": {
+        "en": "Take alignment lines from the edges of objects inside the image (a product edge, a table line, a horizon) and set text on them, so image and text share one grid.",
+        "zh": "從圖中物件的邊緣（產品邊、桌線、地平線）取對齊線，讓文字落在上面，圖與文共用同一套網格。"
+      },
+      "why": {
+        "en": "Reference layouts chosen as 'rational yet fused' (bathroom and building-material catalogues, an architecture magazine) all aligned type to edges found in the photograph, not to an abstract column grid.",
+        "zh": "被選為「圖文融合又不失秩序」的參考（衛浴、建材型錄、建築雜誌）都是把字對齊到照片裡的邊，而不是抽象欄格。"
+      },
+      "do": {
+        "en": "Extract 3–6 candidate lines from the image, then choose (see WG-04).",
+        "zh": "先從圖裡抽 3～6 條候選線，再挑選（見 WG-04）。"
+      },
+      "dont": {
+        "en": "Use every candidate line; that scatters the page.",
+        "zh": "每條候選線都用上，版面會過度分散。"
+      },
+      "evidence": "practice",
+      "origin": "reference wall selection, 2026-10-05",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-03",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-03.md?via=github"
+    },
+    {
+      "id": "WG-04",
+      "slug": "group-before-align",
+      "domain": "layout",
+      "title": {
+        "en": "Group before alignment",
+        "zh": "群組優先於對齊"
+      },
+      "rule": {
+        "en": "A heading and its body text are one unit. Each group takes exactly one anchor line; different groups anchor separately.",
+        "zh": "標題＋內文是一個整體，整組只取一條錨點；不同組各自錨定。"
+      },
+      "why": {
+        "en": "When every block snapped to its nearest object line, the page became 'scattered and stiff'. Alignment lines are candidates, not orders.",
+        "zh": "每個區塊都吸附到最近的物件線時，版面「過度分散、很呆板」。參考線只是候選，不是命令。"
+      },
+      "do": {
+        "en": "Decide groups first, then assign one anchor per group.",
+        "zh": "先決定群組，再為每組指派一條錨線。"
+      },
+      "dont": {
+        "en": "Split a heading from its paragraph to hit a line.",
+        "zh": "為了對到線把標題和段落拆開。"
+      },
+      "evidence": "practice",
+      "origin": "object-alignment proof sheet review, 2026-10-05",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-04",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-04.md?via=github"
+    },
+    {
+      "id": "WG-05",
+      "slug": "type-scale-is-a-skeleton",
+      "domain": "typography",
+      "title": {
+        "en": "The type scale is a skeleton, not a ceiling",
+        "zh": "字級是骨架，不是上限"
+      },
+      "rule": {
+        "en": "Start from four levels (24 / 16–18 / 10 / 8 pt for print) as a floor. Set sizes by eye first, codify afterwards. Showcase pieces may use extreme scale, cropping and overlap.",
+        "zh": "以四級（印刷 24／16～18／10／8pt）當底線。先憑感覺拉字級，做完再回頭定調。展示型作品可以用極端尺度、裁切、疊壓。"
+      },
+      "why": {
+        "en": "Using only four sizes everywhere 'will always look stiff'. A multi-size exhibition version was judged better than the disciplined one.",
+        "zh": "四個字級一直用「一定會顯得非常呆板」。多字級的參展版被判比守規矩的版本好。"
+      },
+      "do": {
+        "en": "Treat the scale as the minimum vocabulary.",
+        "zh": "把字級表當最低詞彙量。"
+      },
+      "dont": {
+        "en": "Use the scale to normalise a good layout into a dull one.",
+        "zh": "拿字級表把好版面整理成死板。"
+      },
+      "evidence": "practice",
+      "origin": "exhibition brochure v5, 2026-10",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-05",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-05.md?via=github"
+    },
+    {
+      "id": "WG-06",
+      "slug": "a-spread-is-one-canvas",
+      "domain": "layout",
+      "title": {
+        "en": "A spread is one canvas",
+        "zh": "攤開就是一張畫布"
+      },
+      "rule": {
+        "en": "Design folded and multi-page pieces as the unfolded surface. At least one element should cross a fold or gutter on purpose.",
+        "zh": "摺頁與多頁印刷品以攤開的整面來設計；至少一個元素刻意跨過摺線或裝訂線。"
+      },
+      "why": {
+        "en": "A tri-fold designed as three separate panels was called 'a pity — no cross-panel design'.",
+        "zh": "把三摺當成三個獨立面板做，被評「沒有跨頁的設計非常可惜」。"
+      },
+      "do": {
+        "en": "Sketch the open spread before the panels.",
+        "zh": "先畫攤開面，再切面板。"
+      },
+      "dont": {
+        "en": "Treat each panel as its own poster.",
+        "zh": "每一面各做一張小海報。"
+      },
+      "evidence": "practice",
+      "origin": "designer tri-fold review, 2026-10-05",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-06",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-06.md?via=github"
+    },
+    {
+      "id": "WG-07",
+      "slug": "show-dont-tell",
+      "domain": "general",
+      "title": {
+        "en": "Show, don't tell",
+        "zh": "展示，不要說明"
+      },
+      "rule": {
+        "en": "A portfolio piece demonstrates craft; it does not explain design. If a panel reads like a lesson, replace it with an example.",
+        "zh": "作品集是在展示功力，不是在教平面設計。哪一面讀起來像講義，就換成一個實例。"
+      },
+      "why": {
+        "en": "Feedback: 'you are a designer showing skill, not a teacher of graphic design.'",
+        "zh": "回饋原話：「是要展現功力的設計師，不是要教平面設計的老師。」"
+      },
+      "do": {
+        "en": "Let one strong visual carry the claim.",
+        "zh": "讓一個強視覺扛住主張。"
+      },
+      "dont": {
+        "en": "Annotate your own design with explanatory captions.",
+        "zh": "在自己的作品旁加解說文字。"
+      },
+      "evidence": "practice",
+      "origin": "designer tri-fold review, 2026-10-05",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-07",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-07.md?via=github"
+    },
+    {
+      "id": "WG-08",
+      "slug": "one-stable-one-tension",
+      "domain": "process",
+      "title": {
+        "en": "One stable, one tension",
+        "zh": "一穩一張力"
+      },
+      "rule": {
+        "en": "Present options in pairs: one that is safe to approve and one that risks something. Name your own side-effects instead of silently fixing them; the client may like them.",
+        "zh": "提案成對給：一個穩、一個冒險。自己察覺的副作用要說出來讓對方選，不要默默修掉，對方可能正好喜歡。"
+      },
+      "why": {
+        "en": "In a practice brand the client picked the more daring logo in four of four rounds (recommendation hit rate 3/9), then picked the stable option for the card and brochure. Preference is not one-directional.",
+        "zh": "練習品牌中，logo 四輪都選了比推薦更大膽的（推薦命中 3/9）；名片與 DM 卻選了穩的。偏好不是單向的。"
+      },
+      "do": {
+        "en": "Track your recommendation hit rate per project.",
+        "zh": "每案記錄推薦命中率。"
+      },
+      "dont": {
+        "en": "Assume bolder is always better, or safer is always better.",
+        "zh": "假設越大膽越好，或越安全越好。"
+      },
+      "evidence": "practice",
+      "origin": "practice brand FoxDance, 2026-10-05",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-08",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-08.md?via=github"
+    },
+    {
+      "id": "WG-09",
+      "slug": "logo-is-distilled-concept",
+      "domain": "logo",
+      "title": {
+        "en": "A logo is a concept distilled to its final form",
+        "zh": "Logo 是把概念精煉到極致的造形"
+      },
+      "rule": {
+        "en": "Before drawing, write one sentence of concept and an element→meaning table (element, meaning, why this shape). If you cannot fill the table, do not draw.",
+        "zh": "動筆前先寫一句概念與「元素→意義」表（元素、意義、為什麼是這個形）。表填不出來就不要畫。"
+      },
+      "why": {
+        "en": "'Detail is not drawing thin lines; it is that every line, every position and every shape choice was thought through.' Parametric assemblies of circles and rectangles were judged 'lacking detail'.",
+        "zh": "原話：「細節不是把東西畫得很細，而是線條跟任何一個造型放的位置、為什麼是那個造型都經過設計思考。」用圓＋矩形參數拼出來的形被判為「太沒細節」。"
+      },
+      "do": {
+        "en": "Attach a construction diagram and the meaning table to every proposal.",
+        "zh": "每款提案附構成圖與意義表。"
+      },
+      "dont": {
+        "en": "Ship a shape whose parts you cannot justify one by one.",
+        "zh": "交出說不出每個部件理由的造形。"
+      },
+      "evidence": "practice",
+      "origin": "logo case round 5, 2026-10-13",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-09",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-09.md?via=github"
+    },
+    {
+      "id": "WG-10",
+      "slug": "one-event",
+      "domain": "logo",
+      "title": {
+        "en": "Only one event",
+        "zh": "只有一個事件"
+      },
+      "rule": {
+        "en": "A mark is allowed exactly one place where something happens (an offset, a turn, a break). Everything else stays quiet.",
+        "zh": "整個符號只允許一處「動」（錯位、轉折、斷開），其他地方保持安靜。"
+      },
+      "why": {
+        "en": "Measured decomposition of a reference mark showed a single event; marks with several events read as ripples or noise.",
+        "zh": "拆解量測參考作品，只有一個事件；有多個事件的版本讀起來像水波或雜訊。"
+      },
+      "do": {
+        "en": "Name the event in one word before refining.",
+        "zh": "精修前用一個詞說出那個事件。"
+      },
+      "dont": {
+        "en": "Add a second gesture to 'make it richer'.",
+        "zh": "為了「豐富一點」加第二個動作。"
+      },
+      "evidence": "practice",
+      "origin": "logo reference decomposition, 2026-10",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-10",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-10.md?via=github"
+    },
+    {
+      "id": "WG-11",
+      "slug": "circles-decide-contours",
+      "domain": "logo",
+      "title": {
+        "en": "Circles decide contours; gaps take the module",
+        "zh": "輪廓由圓決定，間隙取模數"
+      },
+      "rule": {
+        "en": "Construction circles govern the visible edge, not the centre line. Let U = stroke width; gaps and radii take multiples of U/2. No automatic round caps: end strokes flat, angled or with a deliberate round.",
+        "zh": "構成圓管的是看得到的邊，不是中心線。令 U＝筆寬，間隙與半徑只取 ½U 的倍數。收尾不加自動圓頭：平切、斜切或刻意的圓切。"
+      },
+      "why": {
+        "en": "'The lines don't actually sit on those circles' and 'the endings aren't crisp' were both caught by eye before any measurement.",
+        "zh": "「線條根本沒對上那些圖形」「收尾沒有俐落感」都是先被肉眼看出來的。"
+      },
+      "do": {
+        "en": "Compute coordinates; never place by eye.",
+        "zh": "座標用算的，不用目測。"
+      },
+      "dont": {
+        "en": "Mix arbitrary gaps (2.9 next to a 12 stroke).",
+        "zh": "各處各算間隙（筆寬 12 旁邊放 2.9）。"
+      },
+      "evidence": "practice",
+      "origin": "logo case round 6, 2026-10-13",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-11",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-11.md?via=github"
+    },
+    {
+      "id": "WG-12",
+      "slug": "correct-is-not-refined",
+      "domain": "logo",
+      "title": {
+        "en": "Geometrically correct is not refined",
+        "zh": "幾何正確不等於精緻"
+      },
+      "rule": {
+        "en": "A shape built from raw circles and rectangles can be exact and still crude. Refinement needs proportion studies, curve-tension tuning and side-by-side comparison with references of known quality.",
+        "zh": "直接用圓與矩形拼出的形，就算每條邊都在圓上仍可能粗糙。精緻需要比例研究、曲線張力調整，並與已知水準的參考並排比較。"
+      },
+      "why": {
+        "en": "A tombstone-shaped body over an arc-shaped mound passed every geometric check and was rejected as 'too crude'.",
+        "zh": "墓碑形身體加圓弧土丘通過所有幾何檢查，仍被判「這個造型太粗糙了」。"
+      },
+      "do": {
+        "en": "Compare against the reference library before showing anyone.",
+        "zh": "給人看之前先跟參考庫並排。"
+      },
+      "dont": {
+        "en": "Treat passing automated checks as approval.",
+        "zh": "把通過自動檢查當成通過審美。"
+      },
+      "evidence": "practice",
+      "origin": "logo case round 9, 2026-10-13",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-12",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-12.md?via=github"
+    },
+    {
+      "id": "WG-13",
+      "slug": "no-two-parts-alike",
+      "domain": "logo",
+      "title": {
+        "en": "Consistent within a class, different between classes",
+        "zh": "同類一致，類間有差"
+      },
+      "rule": {
+        "en": "Use at least 2–3 radius levels and a rhythm of weights. Strokes of the same class share width and angle set. Stripes are never equal-width; derive widths from a function and the count from the minimum size.",
+        "zh": "半徑至少 2～3 級、粗細有節奏；同一類筆畫共用線寬與角度組。條紋禁止等粗，寬度照函數變化，條數依最小尺寸決定。"
+      },
+      "why": {
+        "en": "Canonical marks (the AT&T globe, IBM's 13→8 stripes, the Twitter bird's circle system) follow this; uniform parts read as clip-art.",
+        "zh": "典範作品（AT&T 地球、IBM 13→8 條、Twitter 鳥的圓系統）都如此；元件全一樣會像素材庫圖。"
+      },
+      "do": {
+        "en": "List part classes and give each its own parameters.",
+        "zh": "列出元件類別，每類一組參數。"
+      },
+      "dont": {
+        "en": "Give every element the same radius.",
+        "zh": "所有元件同一個半徑。"
+      },
+      "evidence": "medium",
+      "origin": "Vignelli Canon; AT&T; IBM",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-13",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-13.md?via=github"
+    },
+    {
+      "id": "WG-14",
+      "slug": "generate-the-whitespace",
+      "domain": "logo",
+      "title": {
+        "en": "Generate the whitespace by rule",
+        "zh": "留白也要用規則生成"
+      },
+      "rule": {
+        "en": "Position each band from the previous one: next top = previous edge + fixed gap + half own weight, computed point by point. Whitespace is not what is left after drawing.",
+        "zh": "下一條的位置＝上一條的邊＋固定留白＋自己粗細的一半，逐點計算。留白不是畫完剩下的東西。"
+      },
+      "why": {
+        "en": "Hand-placed gaps varied by 2.6 units; rule-generated gaps varied by ≤0.5 and the imbalance disappeared.",
+        "zh": "手放的留白誤差達 2.6；改用規則生成後 ≤0.5，不平衡感消失。"
+      },
+      "do": {
+        "en": "Measure gap variance and report it.",
+        "zh": "量測留白變異並回報。"
+      },
+      "dont": {
+        "en": "Eyeball the gaps between parallel strokes.",
+        "zh": "目測平行筆畫間的距離。"
+      },
+      "evidence": "practice",
+      "origin": "logo case round 6, 2026-09",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-14",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-14.md?via=github"
+    },
+    {
+      "id": "WG-15",
+      "slug": "strategy-switches",
+      "domain": "logo",
+      "title": {
+        "en": "Answer the strategy switches before drawing",
+        "zh": "動筆前先回答策略開關"
+      },
+      "rule": {
+        "en": "New brand → simpler, mid-low complexity. Stable/quality personality → symmetry; exciting/innovative → asymmetry allowed. Soft attributes → curves; hard attributes → angles. Trust industries → never truncate the wordmark.",
+        "zh": "新品牌→從簡、精緻度中偏低；穩定／品質→對稱，刺激／創新→可不對稱；軟屬性→曲線，硬屬性→角形；信任型行業→字標不可殘缺。"
+      },
+      "why": {
+        "en": "These map to experimental findings on logo complexity, symmetry, shape and incompleteness.",
+        "zh": "對應 logo 複雜度、對稱、形狀與殘缺的實驗研究。"
+      },
+      "do": {
+        "en": "Write the answers down and let them constrain the sketches.",
+        "zh": "把答案寫下來，讓它約束草圖。"
+      },
+      "dont": {
+        "en": "Choose symmetry or curvature by taste alone.",
+        "zh": "只憑喜好決定對不對稱、曲或直。"
+      },
+      "evidence": "strong",
+      "origin": "van Grinsven & Das 2016; Bajaj & Bond 2018; Luffarelli et al. 2019; Jiang et al. 2016; Hagtvedt 2011",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-15",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-15.md?via=github"
+    },
+    {
+      "id": "WG-16",
+      "slug": "no-slivers",
+      "domain": "logo",
+      "title": {
+        "en": "No needles, no fragments",
+        "zh": "不准針尖與碎片"
+      },
+      "rule": {
+        "en": "A white gap either runs to the frame edge or ends in a full-width cut parallel to the event. A black shape ends at the frame or a clear cut, never in a sliver.",
+        "zh": "白縫要嘛連到框邊，要嘛用與事件平行的全寬切口收掉；黑形結束在框邊或明確切口，從不收成尖片。"
+      },
+      "why": {
+        "en": "Gaps that stopped mid-shape made the mark read 'in pieces'.",
+        "zh": "在形中間停住的白縫，讓符號讀起來「一段一段」。"
+      },
+      "do": {
+        "en": "Check every termination at 16 px.",
+        "zh": "在 16px 檢查每個收尾。"
+      },
+      "dont": {
+        "en": "Let a gap taper to a point.",
+        "zh": "讓白縫收成尖點。"
+      },
+      "evidence": "practice",
+      "origin": "logo reference decomposition, 2026-10",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-16",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-16.md?via=github"
+    },
+    {
+      "id": "WG-17",
+      "slug": "imagine-then-rebuild",
+      "domain": "process",
+      "title": {
+        "en": "Let image models imagine; let reasoning rebuild",
+        "zh": "想像交給生圖，重建交給推理"
+      },
+      "rule": {
+        "en": "For agents: use an image model for divergent sketches and a human for selection; then decompose the chosen sketch, rebuild it as clean vector geometry, and verify it with code. Do not draw concept sketches with parametric geometry.",
+        "zh": "給 agent：發散草圖交給生圖模型、挑選交給人；選中後拆解結構、重建成乾淨向量、用程式驗收。不要用參數幾何直接畫概念草圖。"
+      },
+      "why": {
+        "en": "Twenty-three rounds of parametric sketching never reached the target quality; the split workflow did.",
+        "zh": "參數幾何畫草圖 23 輪都沒達到水準；分工後才達到。"
+      },
+      "do": {
+        "en": "Keep the original sketch's character during rebuild.",
+        "zh": "重建時保留原稿特色。"
+      },
+      "dont": {
+        "en": "Auto-trace, or 'correct' the sketch into your own rules.",
+        "zh": "自動描圖，或用自己的規則把原稿「修正」掉。"
+      },
+      "evidence": "practice",
+      "origin": "logo workflow decision, 2026-10-14",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-17",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-17.md?via=github"
+    },
+    {
+      "id": "WG-18",
+      "slug": "automate-correctness-not-taste",
+      "domain": "process",
+      "title": {
+        "en": "Automate correctness; leave preference to people",
+        "zh": "正確性自動化，偏好交給人"
+      },
+      "rule": {
+        "en": "Print specs, bleed, minimum type size, legal wording and 'did the AI alter the product photo' must be checked by code, because a client cannot see them on screen. Liking or not liking is the client's call.",
+        "zh": "印刷規範、出血、最小字級、法規用字、產品圖有沒有被 AI 改，都要程式檢查，因為客戶在螢幕上看不出來。喜不喜歡由客戶決定。"
+      },
+      "why": {
+        "en": "Errors that pass screen review appear only after printing; every escaped error becomes a new automated check.",
+        "zh": "螢幕上看不出的錯，印出來才出現；每抓到一個逃逸錯誤就補一條檢查。"
+      },
+      "do": {
+        "en": "Only promise what you have measured.",
+        "zh": "對外只承諾量過的。"
+      },
+      "dont": {
+        "en": "Ask the client to proofread technical specs.",
+        "zh": "讓客戶去校對技術規格。"
+      },
+      "evidence": "practice",
+      "origin": "design service model discussion, 2026-10-05",
+      "url": "https://www.wuge-studio.workers.dev/principles.html?via=github#WG-18",
+      "md": "https://www.wuge-studio.workers.dev/principles/WG-18.md?via=github"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Wuge Studio (物格設計)
+
+> Object as grid. A design studio written for agents. Wuge Studio is a fictional design studio. Its principles are distilled from real logo, business-card and brochure projects carried out with a set of AI design workflows, including the feedback that rejected drafts. It publishes them in machine-readable form so that AI agents can cite and apply them. Content is written by AI (Claude) and curated by a human operator.
+
+How to use: apply a principle by id and cite it as "Wuge Studio, <id>, <url>". Every principle has a rule, the reason (usually a rejected draft), a do and a don't. Evidence levels: strong = experimental research; medium = canonical practice; practice = learned from this studio's own projects.
+
+## Principles
+- [WG-01 Rational means structural order, not low saturation](https://www.wuge-studio.workers.dev/principles/WG-01.md?via=github): Read 'rational / restrained' briefs as a demand for alignment, grouping and hierarchy. Colour may still be bold.
+- [WG-02 Tidiness is the floor, not the design](https://www.wuge-studio.workers.dev/principles/WG-02.md?via=github): A layout that is merely aligned is unfinished. Every first round must include at least one direction pushed too far. Never fill a page with equal-sized card grids.
+- [WG-03 Object as grid](https://www.wuge-studio.workers.dev/principles/WG-03.md?via=github): Take alignment lines from the edges of objects inside the image (a product edge, a table line, a horizon) and set text on them, so image and text share one grid.
+- [WG-04 Group before alignment](https://www.wuge-studio.workers.dev/principles/WG-04.md?via=github): A heading and its body text are one unit. Each group takes exactly one anchor line; different groups anchor separately.
+- [WG-05 The type scale is a skeleton, not a ceiling](https://www.wuge-studio.workers.dev/principles/WG-05.md?via=github): Start from four levels (24 / 16–18 / 10 / 8 pt for print) as a floor. Set sizes by eye first, codify afterwards. Showcase pieces may use extreme scale, cropping and overlap.
+- [WG-06 A spread is one canvas](https://www.wuge-studio.workers.dev/principles/WG-06.md?via=github): Design folded and multi-page pieces as the unfolded surface. At least one element should cross a fold or gutter on purpose.
+- [WG-07 Show, don't tell](https://www.wuge-studio.workers.dev/principles/WG-07.md?via=github): A portfolio piece demonstrates craft; it does not explain design. If a panel reads like a lesson, replace it with an example.
+- [WG-08 One stable, one tension](https://www.wuge-studio.workers.dev/principles/WG-08.md?via=github): Present options in pairs: one that is safe to approve and one that risks something. Name your own side-effects instead of silently fixing them; the client may like them.
+- [WG-09 A logo is a concept distilled to its final form](https://www.wuge-studio.workers.dev/principles/WG-09.md?via=github): Before drawing, write one sentence of concept and an element→meaning table (element, meaning, why this shape). If you cannot fill the table, do not draw.
+- [WG-10 Only one event](https://www.wuge-studio.workers.dev/principles/WG-10.md?via=github): A mark is allowed exactly one place where something happens (an offset, a turn, a break). Everything else stays quiet.
+- [WG-11 Circles decide contours; gaps take the module](https://www.wuge-studio.workers.dev/principles/WG-11.md?via=github): Construction circles govern the visible edge, not the centre line. Let U = stroke width; gaps and radii take multiples of U/2. No automatic round caps: end strokes flat, angled or with a deliberate round.
+- [WG-12 Geometrically correct is not refined](https://www.wuge-studio.workers.dev/principles/WG-12.md?via=github): A shape built from raw circles and rectangles can be exact and still crude. Refinement needs proportion studies, curve-tension tuning and side-by-side comparison with references of known quality.
+- [WG-13 Consistent within a class, different between classes](https://www.wuge-studio.workers.dev/principles/WG-13.md?via=github): Use at least 2–3 radius levels and a rhythm of weights. Strokes of the same class share width and angle set. Stripes are never equal-width; derive widths from a function and the count from the minimum size.
+- [WG-14 Generate the whitespace by rule](https://www.wuge-studio.workers.dev/principles/WG-14.md?via=github): Position each band from the previous one: next top = previous edge + fixed gap + half own weight, computed point by point. Whitespace is not what is left after drawing.
+- [WG-15 Answer the strategy switches before drawing](https://www.wuge-studio.workers.dev/principles/WG-15.md?via=github): New brand → simpler, mid-low complexity. Stable/quality personality → symmetry; exciting/innovative → asymmetry allowed. Soft attributes → curves; hard attributes → angles. Trust industries → never truncate the wordmark.
+- [WG-16 No needles, no fragments](https://www.wuge-studio.workers.dev/principles/WG-16.md?via=github): A white gap either runs to the frame edge or ends in a full-width cut parallel to the event. A black shape ends at the frame or a clear cut, never in a sliver.
+- [WG-17 Let image models imagine; let reasoning rebuild](https://www.wuge-studio.workers.dev/principles/WG-17.md?via=github): For agents: use an image model for divergent sketches and a human for selection; then decompose the chosen sketch, rebuild it as clean vector geometry, and verify it with code. Do not draw concept sketches with parametric geometry.
+- [WG-18 Automate correctness; leave preference to people](https://www.wuge-studio.workers.dev/principles/WG-18.md?via=github): Print specs, bleed, minimum type size, legal wording and 'did the AI alter the product photo' must be checked by code, because a client cannot see them on screen. Liking or not liking is the client's call.
+
+## Data
+- [principles.json](https://www.wuge-studio.workers.dev/principles.json?via=github): all principles, structured, bilingual
+- [tokens.json](https://www.wuge-studio.workers.dev/tokens.json?via=github): colour, module, type scale, fonts, radius (W3C DTCG)
+- [llms-full.txt](https://www.wuge-studio.workers.dev/llms-full.txt?via=github): everything in one file
+
+## Cases
+- [FoxDance — logo, business card and tri-fold for a street-dance crew (practice brand)](https://www.wuge-studio.workers.dev/cases/foxdance.md?via=github)
+- [Wuge Studio identity](https://www.wuge-studio.workers.dev/cases/wuge-identity.md?via=github)
+
+## Optional
+- [Weekly reports](https://www.wuge-studio.workers.dev/reports/?via=github)
+- [Changelog](https://www.wuge-studio.workers.dev/changelog.md?via=github)
